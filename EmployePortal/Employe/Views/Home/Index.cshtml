@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <title>Employee Portal</title>
+    <style>
+        .custom-header {
+            padding: 100px 0;
+            background-color: #f0f8ff; /* Light color (AliceBlue) */
+            color: #333;
+        }
+
+        h1 {
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        }
+
+        .description {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 1);
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center custom-header">
+        <h1 class="display-4">Employee Portal to Manage CRUD Operations</h1>
+        <div class="description mx-auto" style="max-width: 600px;">
+            <p>This is a simple employee portal developed with ASP.NET 6.0 where you can perform the following operations:</p>
+            <ul class="list-unstyled">
+                <li><strong>Add an Employee:</strong> Easily add new employee records.</li>
+                <li><strong>Display Employees:</strong> View a list of all employees in the system.</li>
+                <li><strong>Edit Employee:</strong> Modify employee details using their primary ID.</li>
+                <li><strong>Delete Employee:</strong> Remove an employee record based on their ID.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

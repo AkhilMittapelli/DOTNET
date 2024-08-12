@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{9B65CDAE-AE4A-41ED-96D0-67B86E906976}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Employe/Views/Employe/Add.cshtml">
+    <Files>
+      <File FileName="Employe/Views/Employe/Add.cshtml" Line="17" Column="1" />
+      <File FileName="Employe/Models/Entity/Worker.cs" />
+      <File FileName="Employe/Models/AddEmployeViewModel.cs" />
+      <File FileName="Employe/Controllers/EmployeController.cs" />
+      <File FileName="Employe/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmployePortal" expanded="True">
+            <Node name="Employe" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Entity" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Employe" expanded="True">
+                  <Node name="Add.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Employe PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

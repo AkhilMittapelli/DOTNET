@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Employe.Models.AddEmployeViewModel
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <title>Employee Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Employee Page</h1>
+        <form method="post">
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" asp-for="Name" />
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label class="form-label">Email</label>
+                    <input type="text" class="form-control" asp-for="Email" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <label class="form-label">Salary</label>
+                    <input type="number" class="form-control" asp-for="Salary" />
+                </div>
+                <div class="col-md-6 mt-3">
+                    <label class="form-label">Date Of Birth</label>
+                    <input type="date" class="form-control" asp-for="DateOfBirth" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <label class="form-label">Department</label>
+                    <input type="text" class="form-control" asp-for="Department" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-3 d-flex align-items-center">
+                    <input type="checkbox" class="form-check-input" id="Subscribed" asp-for="subscribed" />
+                    <label class="form-check-label ms-2" for="Subscribed">Subscribed</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
